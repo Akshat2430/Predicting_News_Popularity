@@ -1,4 +1,5 @@
-# Predicting the likelihood of popularity for news article
+# Predicting the likelihood of popularity for news articles
+
 
 In this project, I will be crawling news websites to find articles and anticipate the likelihood of their virality. There hasn't been a significant amount of success in this field, with the best model not even hitting 70% accuracy. This project, done for the BiPolar Factory Internship, doesn't challenge that accuracy. However, there is another approach presented towards the end which I will consider in future projects that has the potential to beat this current accuracy.
 
