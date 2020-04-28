@@ -2,7 +2,7 @@
 
 In this project, I will be crawling news websites to find articles and anticipate the likelihood of their virality. There hasn't been a significant amount of success in this field, with the best model not even hitting 70% accuracy. This project, done for the BiPolar Factory Internship, doesn't challenge that accuracy. However, there is another approach presented towards the end which I will consider in future projects that has the potential to beat this current accuracy.
 
-I have used the famous( and actually, the only one dealing with news popularity) UCI dataset containing a heterogeneous set of features about articles published by Mashable in a period of two years. 
+I have used the famous( and actually, the only one dealing with news popularity) UCI dataset containing a heterogeneous set of features about articles published by Mashable in a period of two years. Link: http://archive.ics.uci.edu/ml/datasets/Online+News+Popularity 
 
 The goal is to predict the probability of shares being greater than a certain popularity threshold(defined by taking median of shares column of dataset). Naturally, logistic regression( which I trained as a neural network using keras) is the way to go.
 
